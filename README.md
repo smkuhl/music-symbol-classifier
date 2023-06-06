@@ -9,10 +9,8 @@ The dataset we used was the Handwritten Online Musical Symbols (HOMUS) dataset t
 
 We used resources from these github repositories for our data:
 
-apacha/MusicSymbolClassifier: A Python project that trains a Deep Neural Network to distinguish between Music Symbols (github.com)
-apacha/Homus: A revisited version of the HOMUS (Handwritten Online Musical Symbols) database from http://grfia.dlsi.ua.es/homus/ (github.com)
-HOMUS-Bitmap/Shifted-Homus-Dataset/2-2-Time at master · ivyjsgit/HOMUS-Bitmap · GitHub
-HOMUS/imagens at master · jenaroaaugusto/HOMUS (github.com)
+https://github.com/apacha/MusicSymbolClassifier
+https://github.com/jenaroaaugusto/HOMUS/tree/master/imagens
 
 For our model, we used a similar technique to the bird species classifier example. First, we randomly split our data into training, validation, and test data based on a 70%, 15%, 15% split. Then we used the pretrained resnet model to train our model with our training data. The hyperparameters that worked best for us were 5 epochs with a learning rate of 0.01. After training our model, we used it to predict our validation and test data and printed their accuracies.
 
