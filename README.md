@@ -9,8 +9,9 @@ The dataset we used was the Handwritten Online Musical Symbols (HOMUS) dataset t
 
 We used resources from these github repositories for our data:
 
-https://github.com/apacha/MusicSymbolClassifier
-https://github.com/jenaroaaugusto/HOMUS/tree/master/imagens
+original dataset: https://github.com/apacha/MusicSymbolClassifier
+
+pre-generated images: https://github.com/jenaroaaugusto/HOMUS/tree/master/imagens
 
 For our model, we used a similar technique to the bird species classifier example. First, we randomly split our data into training, validation, and test data based on a 70%, 15%, 15% split. Then we used the pretrained resnet model to train our model with our training data. The hyperparameters that worked best for us were 5 epochs with a learning rate of 0.01. After training our model, we used it to predict our validation and test data and printed their accuracies.
 
