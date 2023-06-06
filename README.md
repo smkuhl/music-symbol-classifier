@@ -10,6 +10,7 @@ Since we are creating a machine learning model, we used neural networks to train
 The dataset we used was the Handwritten Online Musical Symbols (HOMUS) dataset that has 6,874 samples, 32 different symbols, collected from 100 different musicians. 
 
 We used resources from these github repositories for our data:
+
 apacha/MusicSymbolClassifier: A Python project that trains a Deep Neural Network to distinguish between Music Symbols (github.com)
 apacha/Homus: A revisited version of the HOMUS (Handwritten Online Musical Symbols) database from http://grfia.dlsi.ua.es/homus/ (github.com)
 HOMUS-Bitmap/Shifted-Homus-Dataset/2-2-Time at master · ivyjsgit/HOMUS-Bitmap · GitHub
