@@ -1,5 +1,6 @@
 # music-symbol-classifier
 
+Jackie Nguyen, Sydney Kuhl
 
 Oh no! Sir Jeffrey Bezos can’t read music. Instead of just simply teaching him how to read we must create a machine learning model to identify the handwritten musical symbols in our family’s top secret symphony that has been passed down through generations. 
 
