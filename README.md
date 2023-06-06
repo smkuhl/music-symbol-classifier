@@ -1,11 +1,9 @@
 # music-symbol-classifier
 
 
-Oh no! Daddy Bezos can’t read music. Instead of just simply teaching him how to read we must create a machine learning model to identify the handwritten musical symbols in our family’s top secret symphony that has been passed down through generations. 
+Oh no! Sir Jeffrey Bezos can’t read music. Instead of just simply teaching him how to read we must create a machine learning model to identify the handwritten musical symbols in our family’s top secret symphony that has been passed down through generations. 
 
 As a musician, handwritten music is difficult to read and can often cause confusion. If we had a way to classify common symbols we could convert handwritten music into printed music for better readability and accessibility. 
-
-Since we are creating a machine learning model, we used neural networks to train a classifier for handwritten music symbols. 
 
 The dataset we used was the Handwritten Online Musical Symbols (HOMUS) dataset that has 6,874 samples, 32 different symbols, collected from 100 different musicians. 
 
